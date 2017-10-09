@@ -24,7 +24,7 @@ class Site extends CI_Controller {
         $this->load->view('site/contato');
     }
     
-    public fucntion erro404(){
+    public function erro404(){
         $this->load->view('site/404');
     }
 }
