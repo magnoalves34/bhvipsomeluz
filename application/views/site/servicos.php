@@ -39,11 +39,11 @@
 					</div>
 					<div class="dn_navigation">
 						<ul class="menu">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="servicos.html" class="active">Serviços</a></li>
-							<li><a href="pacotes.html">Pacotes</a></li>
-							<li><a href="galeria.html">Galeria</a></li>
-							<li><a href="contato.html">Contato</a></li>
+							<li><a href="<?php echo base_url();?>">Home</a></li>
+							<li><a href="<?php echo base_url('servicos');?>" class="active">Serviços</a></li>
+							<li><a href="<?php echo base_url('pacotes');?>">Pacotes</a></li>
+							<li><a href="<?php echo base_url('galeria');?>">Galeria</a></li>
+							<li><a href="<?php echo base_url('contato');?>">Contato</a></li>
 						</ul>
 					</div>
 				</div>
