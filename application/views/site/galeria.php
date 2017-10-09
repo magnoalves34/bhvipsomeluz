@@ -12,8 +12,8 @@
 <meta name="keywords" content="Dj, som, iluminacao, aluguel, eventos">
 <meta name="author"  content="Magno Alves"/>
 <meta name="MobileOptimized" content="320">
-<link href="<?php echo base_url('resources/')?><?php echo base_url('resources/')?>css/main.css" rel="stylesheet" type="text/css"/>
-<link rel="shortcut icon" type="image/png" href="<?php echo base_url('resources/')?><?php echo base_url('resources/')?>images/favicon.jpg"/>
+<link href="<?php echo base_url('resources/')?>css/main.css" rel="stylesheet" type="text/css"/>
+<link rel="shortcut icon" type="image/png" href="<?php echo base_url('resources/')?>images/favicon.jpg"/>
 </head>
 <body>
 <div class="preloader_wrapper">
