@@ -18,7 +18,7 @@
 <body>
 <div class="preloader_wrapper">
 	<div id="pre_loader">
-		<img src="<?php echo base_url('resources/')?><?php echo base_url('resources/')?>images/loader.gif" alt="">
+		<img src="<?php echo base_url('resources/')?>images/loader.gif" alt="">
 	</div>
 </div>
 <div class="dn_header_section header_fix_top">
@@ -28,7 +28,7 @@
 				<div class="dn_navigation_cover">
 					<div class="dn_logo">
 						<a href="index.html">
-							<img src ="<?php echo base_url('resources/')?><?php echo base_url('resources/')?>images/logo-b.png" width="143px" height="32px" alt="thumb" class="img-responsive">
+							<img src ="<?php echo base_url('resources/')?>images/logo-b.png" width="143px" height="32px" alt="thumb" class="img-responsive">
 						</a>
 					</div>
 					<div class="nav_toggle">
