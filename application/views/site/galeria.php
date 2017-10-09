@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php echo base_url('resources/')?><?php echo base_url('resources/')?><!DOCTYPE html>
 <!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
 <!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
 <!--[if !IE]><!-->
@@ -12,13 +12,13 @@
 <meta name="keywords" content="Dj, som, iluminacao, aluguel, eventos">
 <meta name="author"  content="Magno Alves"/>
 <meta name="MobileOptimized" content="320">
-<link href="css/main.css" rel="stylesheet" type="text/css"/>
-<link rel="shortcut icon" type="image/png" href="images/favicon.jpg"/>
+<link href="<?php echo base_url('resources/')?><?php echo base_url('resources/')?>css/main.css" rel="stylesheet" type="text/css"/>
+<link rel="shortcut icon" type="image/png" href="<?php echo base_url('resources/')?><?php echo base_url('resources/')?>images/favicon.jpg"/>
 </head>
 <body>
 <div class="preloader_wrapper">
 	<div id="pre_loader">
-		<img src="images/loader.gif" alt="">
+		<img src="<?php echo base_url('resources/')?><?php echo base_url('resources/')?>images/loader.gif" alt="">
 	</div>
 </div>
 <div class="dn_header_section header_fix_top">
@@ -28,7 +28,7 @@
 				<div class="dn_navigation_cover">
 					<div class="dn_logo">
 						<a href="index.html">
-							<img src ="images/logo-b.png" width="143px" height="32px" alt="thumb" class="img-responsive">
+							<img src ="<?php echo base_url('resources/')?><?php echo base_url('resources/')?>images/logo-b.png" width="143px" height="32px" alt="thumb" class="img-responsive">
 						</a>
 					</div>
 					<div class="nav_toggle">
@@ -248,11 +248,11 @@
 		</div>
 	</div>
 </div>
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/plugins/portfolio/jquery.mixitup.js"></script>
-<script type="text/javascript" src="js/plugins/gallery/jquery.magnific-popup.js"></script> 
-<script type="text/javascript" src="js/plugins/animation/wow.min.js"></script>
-<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript" src="<?php echo base_url('resources/')?>js/jquery.js"></script>
+<script type="text/javascript" src="<?php echo base_url('resources/')?>js/bootstrap.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url('resources/')?>js/plugins/portfolio/jquery.mixitup.js"></script>
+<script type="text/javascript" src="<?php echo base_url('resources/')?>js/plugins/gallery/jquery.magnific-popup.js"></script> 
+<script type="text/javascript" src="<?php echo base_url('resources/')?>js/plugins/animation/wow.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url('resources/')?>js/custom.js"></script>
 </body>
 </html>

@@ -12,13 +12,13 @@
 <meta name="keywords" content="Dj, som, iluminacao, aluguel, eventos">
 <meta name="author"  content="Magno Alves"/>
 <meta name="MobileOptimized" content="320">
-<link href="css/main.css" rel="stylesheet" type="text/css"/>
-<link rel="shortcut icon" type="image/png" href="images/favicon.jpg"/>
+<link href="<?php echo base_url('resources/')?>css/main.css" rel="stylesheet" type="text/css"/>
+<link rel="shortcut icon" type="image/png" href="<?php echo base_url('resources/')?>images/favicon.jpg"/>
 </head>
 <body>
 <div class="preloader_wrapper">
 	<div id="pre_loader">
-		<img src="images/loader.gif" alt="">
+		<img src="<?php echo base_url('resources/')?>images/loader.gif" alt="">
 	</div>
 </div>
 <div class="dn_header_section header_fix_top">
@@ -28,7 +28,7 @@
 				<div class="dn_navigation_cover">
 					<div class="dn_logo">
 						<a href="index.html">
-							<img src ="images/logo-b.png" width="143px" height="32px" alt="thumb" class="img-responsive">
+							<img src ="<?php echo base_url('resources/')?>images/logo-b.png" width="143px" height="32px" alt="thumb" class="img-responsive">
 						</a>
 					</div>
 					<div class="nav_toggle">
@@ -134,54 +134,9 @@
 		</div>
 	</div>
 </div>
-<!-- footer section End -->
-<!--main js file start--> 
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<!--main js file end-->
-<!-- wow js start -->
-<script type="text/javascript" src="js/plugins/animation/wow.min.js">
-</script>
-<!-- wow js end -->
-<!-- google map js -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdcqzcUt1z-w8PbpYijBHZSwGHTuTHsUo"></script>
-<!-- google map js -->
-<!--custom js file Start-->
-<script type="text/javascript" src="js/custom.js"></script>
-<!--custom js file End-->
-<!-- map script start -->
-<script>
-	$(document).ready(function() {
-		var myCenter=new google.maps.LatLng(40.730610, -73.935242);
-		function initialize()
-		{
-			var mapProp = {
-				center:myCenter,
-				zoom:7,
-				scrollwheel: false,
-				mapTypeId:google.maps.MapTypeId.ROADMAP
-			};
-			var map=new google.maps.Map(document.getElementById("big_googleMap"),mapProp);
-			var icon = { 
-				url: 'images/map_pin.png'
-			};
-			var marker=new google.maps.Marker({
-				position:myCenter,
-				map: map,
-				title: 'Dj Night',
-				icon: icon
-			});
-			marker.setMap(map);
-			var infowindow = new google.maps.InfoWindow({
-				content:"<span> Dj Night </span>"
-			});
-			google.maps.event.addListener(marker, 'click', function() {
-				infowindow.open(map,marker);
-			});
-		}
-		google.maps.event.addDomListener(window, 'load', initialize);
-	});
-</script>
-<!-- map script start -->
+<script type="text/javascript" src="<?php echo base_url('resources/')?>js/jquery.js"></script>
+<script type="text/javascript" src="<?php echo base_url('resources/')?>js/bootstrap.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url('resources/')?>js/plugins/animation/wow.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url('resources/')?>js/custom.js"></script>
 </body>
 </html>
