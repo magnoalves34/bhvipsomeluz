@@ -56,7 +56,7 @@
 			<div class="row">
 				<div class="breadcrumb_wrap">
 					<div class="banner_heading">
-						<h2><span>Contato</span> us</h2>
+						<h2>Contato</h2>
 					</div>
 					<ul class="breadcrumbs_menu">
 						<li><a href="#">Home</a></li>
@@ -73,7 +73,7 @@
 			<div class="col-md-6 col-sm-12 right_pad">
 				<div class="contact_form">
 					<h4 class="contact_heading">Envie uma mensagem</h4>
-					<form>
+                                        <form method="post" action="<?php echo base_url('/contato');?>">
 						<input type="text" name="nome" id="name" placeholder="Nome" class="input_control">
 						<input type="email" name="email" id="email" placeholder="Email" class="input_control">
 						<input type="text" name="assunto" id="subject" placeholder="Assunto" class="input_control">
