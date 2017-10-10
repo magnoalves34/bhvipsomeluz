@@ -1,4 +1,4 @@
-<?php echo base_url('resources/')?><?php echo base_url('resources/')?><!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
 <!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
 <!--[if !IE]><!-->
@@ -243,7 +243,8 @@
 						<div class="hexa_inner"><i class="fa fa-facebook"></i></div>
 					</a>					
 				</div>
-				<p> &copy; <a href="http://teqbees.com/">BH Vip Som & Luz</a> 2017 </p>
+                            <p> &copy; <a href="<?php echo base_url();?>">BH Vip Som & Luz</a> 2017 </p>
+                                <p>Desenvolvido por<a href="http://xhouseinfo.com.br"> XHouseInfo</a></p>
 			</div>
 		</div>
 	</div>

@@ -200,7 +200,8 @@
 						<div class="hexa_inner"><i class="fa fa-facebook"></i></div>
 					</a>					
 				</div>
-				<p> &copy; <a href="http://teqbees.com/">BH Vip Som & Luz</a> 2017 </p>
+				<p> &copy; <a href="<?php echo base_url();?>">BH Vip Som & Luz</a> 2017 </p>
+                                <p>Desenvolvido por<a href="http://xhouseinfo.com.br"> XHouseInfo</a></p>
 			</div>
 		</div>
 	</div>
