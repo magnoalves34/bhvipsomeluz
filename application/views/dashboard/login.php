@@ -53,7 +53,7 @@
             </div>
         </div>
     </div>
-
+ 
     <script src="<?php echo base_url('resources/dashboard/');?>vendor/jquery/jquery.min.js"></script>
     <script src="<?php echo base_url('resources/dashboard/');?>vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="<?php echo base_url('resources/dashboard/');?>vendor/metisMenu/metisMenu.min.js"></script>
